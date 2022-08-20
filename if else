@@ -1,0 +1,17 @@
+package ifelse;
+
+public class ifelse {
+	public static void main(String args[])
+	{
+		int num=20;
+				
+				if (num = 2)
+				System.out.print("even");
+				else 
+					System.out.print("odd");
+				
+		
+		
+	}
+
+}
