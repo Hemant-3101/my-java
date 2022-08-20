@@ -1,0 +1,19 @@
+package switc;
+import java.util.Scanner;
+public class switc {
+	
+public static void main(String args[]) {
+	
+        Scanner in=new Scanner(System.in);
+        int s=in.nextInt();
+        Scanner ln=new Scanner(System.in);
+        int l=ln.nextInt();
+        int t=s+l;
+        int x=t-s;
+        System.out.print(x);
+        
+
+}
+
+}
+
