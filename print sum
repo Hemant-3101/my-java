@@ -1,0 +1,15 @@
+package hello;
+// add two number
+
+
+public class hello {
+	public static void main(String arg[])
+	{
+		int num1=3, num2=45, sum;
+		
+		sum= num1 + num2;
+		
+		System.out.print("sume of two number" +sum);
+	}
+
+}
