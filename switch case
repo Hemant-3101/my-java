@@ -1,0 +1,41 @@
+package switchcase;
+import java.util.Scanner;
+
+
+public class swicthcase {
+public static void main(String[] args) {
+	Scanner in = new Scanner(System.in);
+	System.out.println("day");
+	int a = in.nextInt();
+	String daystring;
+	switch (a) {
+	case 1:
+		daystring="monday";
+		break;
+	case 2:
+		daystring="tuesday";
+		break;
+	case 3:
+		daystring="wednesday";
+		break;
+	case 4:
+		daystring ="thursday";
+		break;
+	case 5:
+		daystring="frisday";
+		break;
+	case 6:
+		daystring = "saturday";
+		break;
+	case 7:
+		daystring ="sunday";
+		break;
+		default:
+			daystring ="invaild day";
+			
+	}
+	System.out.println(daystring);
+	
+	
+}
+}
