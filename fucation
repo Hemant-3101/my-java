@@ -1,0 +1,15 @@
+package funcation;
+
+
+
+public class funcation {
+public static void printMyName(String name) {
+	System.out.print("hemant "+name);;
+	return;
+}
+public static void main(String args[])
+{
+	printMyName("kumar");
+	
+	}
+}
