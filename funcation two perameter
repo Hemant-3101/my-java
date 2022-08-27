@@ -1,0 +1,15 @@
+package funcation;
+
+
+
+public class funcation {
+public static void printMyName(String name, int age) {
+	System.out.println(name +" is "+ age);
+	return;
+}
+public static void main(String args[])
+{
+	printMyName("hemant",22);
+	printMyName("kumar",22);
+	}
+}
